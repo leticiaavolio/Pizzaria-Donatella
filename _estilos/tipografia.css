@@ -1,0 +1,46 @@
+*{
+    font-size: 16px;
+}
+h1, h2, h3{
+    font-family:'Fredericka the great', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D90404;
+}
+h4, h5, h6{
+    font-family:'Pacifico', cursive;
+    text-align: center;
+    color:#F2B705;
+}
+h1{
+    font-size: 600%;
+    font-weight: 200;
+}
+h2{
+    font-size: 400%;
+    font-weight: 200;
+}
+h2::after{
+    display: block;
+    background-color: #078C31;
+    height: 5px;
+    width: 100px;
+    margin: 40px auto 30px;
+    content:"";
+}
+h4{
+    font-size: 150%;
+    font-weight: 150;
+    padding: 20px 0;
+}
+p, li, a{
+    font-family: 'Open Sans', sans-serif;
+    color: #404040;
+}
+p.destaque{
+    font-size: 130%;
+    line-height: 1.8;
+    font-weight: 300;
+    text-align: center;
+    width: 60%;
+}
