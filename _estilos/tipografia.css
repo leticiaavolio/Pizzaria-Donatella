@@ -44,3 +44,39 @@ p.destaque{
     text-align: center;
     width: 60%;
 }
+
+/*header*/
+
+header div.chamada h1{
+    color: white;
+    /*adiciona sombra ao texto, o primeiro valor equivale ao eixo horizontal, o segundo ao exio vertical e o terceiro ao espalhamento de sombra quanto maior o valor mais espalhada ela irá ficar*/
+    text-shadow: 4px 6px 10px #000;
+}
+header div.chamada h4{
+    font-size: 250%;
+    text-shadow: 4px 6px 10px #000;
+    margin-bottom: 55px;
+}
+header div.chamada a{
+    font-size: 110%;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 20px 80px;
+    border-radius: 50px;
+    display: inline-block;
+    /*é a transição suave de uma cor para a outra, para utiliza-lo deverá ser informado a desejada em seguida a porcentagem dessa cor que se deseja colocar*/
+    background: linear-gradient( rgba(7, 140, 49, 55) 0%, rgba(6, 89, 2, 35) 50%, rgba(6, 89, 2, 35) 100% );
+}
+/*seção domingo perfeito*/
+div.pontos-chaves h4{
+    color: #404040;
+}
+div.pontos-chaves h4:after{
+    display: block;
+    background-color: #078C31;
+    height: 5px;
+    width: 30%;
+    margin: 20px auto 10px;
+    content: "";
+}
