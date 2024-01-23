@@ -44,9 +44,7 @@ p.destaque{
     text-align: center;
     width: 60%;
 }
-
 /*header*/
-
 header div.chamada h1{
     color: white;
     /*adiciona sombra ao texto, o primeiro valor equivale ao eixo horizontal, o segundo ao exio vertical e o terceiro ao espalhamento de sombra quanto maior o valor mais espalhada ela irá ficar*/
@@ -79,4 +77,23 @@ div.pontos-chaves h4:after{
     width: 30%;
     margin: 20px auto 10px;
     content: "";
+}
+/*seção pizza*/
+section.pizza p.destaque{
+    color: #fff;
+    width: 40% ;
+}
+section.pizza ul li{
+    color: white;
+    list-style: none;
+    line-height: 1.9;
+    font-size: 90%;
+    text-transform: uppercase;
+}
+section.pizza ul li a{
+    color: white;
+    list-style: none;
+    line-height: 1.9;
+    font-size: 90%;
+    text-transform: uppercase;
 }
