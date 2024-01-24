@@ -266,3 +266,10 @@ div.transicao-testemunha-plano{
     flex-flow: row wrap;
     justify-content: space-around;
 }
+div.transicao-testemunha-plano div.decoracao1{
+    width: 30%;
+    height: 100%;
+    background-image: url(../_imagens/secao13-tomate-manjericao-alho.jpg);
+    background-repeat: no-repeat;
+    
+}
