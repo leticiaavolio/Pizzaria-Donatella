@@ -81,9 +81,7 @@ header div.chamada{
 section{
     padding: 55px 0 80px;
 }
-
 /*section domingo perfeito*/
-
 section.domingo-perfeito{
     width: 100%;
     display: flex;
@@ -220,4 +218,51 @@ div#testemunha-mestre ion-icon{
 }
 div#testemunha-esquerda ion-icon{
     opacity: 0.5;
+}
+div#testemunha-centro{
+    width: 70%;
+    margin: 0 auto;
+    height: 300px;
+    position: relative;
+    max-width: 1010px;
+    overflow: hidden;
+}
+div#testemunhos{
+    position: absolute;
+    left: 0;
+    width: 2680px;
+}
+section#testemunha div#testemunha-centro div#testemunhos ul{
+    display: inline-table;
+    width: 300px;
+    background:#fff;
+    padding: 30px;
+    margin: 50px 15px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    list-style: none;
+}
+section#testemunha div#testemunha-centro div#testemunhos ul h5{
+    font-size: 140%;
+}
+section#testemunha div#testemunha-centro div#testemunhos ul p {
+    line-height: 1.5;
+    color: #404040;
+    font-size: 90%;
+}
+section#testemunha div#testemunha-centro div#testemunhos ul img{
+    width: 40%;
+    border-radius: 100%;
+    margin-top: -80px;
+    margin-bottom: 20px;
+    border: 5px solid #F03733;
+}
+/*transição 1*/
+div.transicao-testemunha-plano{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
