@@ -49,11 +49,20 @@ header div.chamada h1{
     color: white;
     /*adiciona sombra ao texto, o primeiro valor equivale ao eixo horizontal, o segundo ao exio vertical e o terceiro ao espalhamento de sombra quanto maior o valor mais espalhada ela irá ficar*/
     text-shadow: 4px 6px 10px #000;
+    animation-name: HeaderH1-Animation;
+    animation-duration: 2s;
+    /*ease-out padrão*/
+    animation-timing-function: ease-out;
 }
 header div.chamada h4{
     font-size: 250%;
     text-shadow: 4px 6px 10px #000;
     margin-bottom: 55px;
+    animation-name: HeaderH4-Animation;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
 }
 header div.chamada a{
     font-size: 110%;
@@ -65,6 +74,11 @@ header div.chamada a{
     display: inline-block;
     /*é a transição suave de uma cor para a outra, para utiliza-lo deverá ser informado a desejada em seguida a porcentagem dessa cor que se deseja colocar*/
     background: linear-gradient( rgba(7, 140, 49, 55) 0%, rgba(6, 89, 2, 35) 50%, rgba(6, 89, 2, 35) 100% );
+    animation-name: HeaderA-Animation;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
 }
 /*seção domingo perfeito*/
 div.pontos-chaves h4{
